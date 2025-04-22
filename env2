@@ -1,0 +1,7 @@
+env2\Scripts\activate  # для Windows
+pip install flask
+deactivate
+
+source env2/bin/activate
+pip list  # должен показать только flask
+deactivate

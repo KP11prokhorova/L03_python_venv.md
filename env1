@@ -1,0 +1,10 @@
+python -m venv env1
+python -m venv env2
+
+env1\Scripts\activate  # для Windows
+pip install requests
+deactivate
+
+source env1/bin/activate
+pip list  # должен показать только requests
+deactivate

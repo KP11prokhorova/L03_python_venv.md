@@ -1,0 +1,10 @@
+env/
+env1/
+env2/
+
+git init #Инициализируйте репозиторий Git и сделайте первый коммит:
+git add .
+git commit -m "первый коммит"
+
+git remote add origin <ссылка на ваш репозиторий> #Добавьте удалённый репозиторий и выполните push:
+git push -u origin main

@@ -1,0 +1,4 @@
+1. python -m venv myprojectenv
+2. myprojectenv\Scripts\activate
+3. pip install numpy
+4. pip list

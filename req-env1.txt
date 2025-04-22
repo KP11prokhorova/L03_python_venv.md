@@ -1,0 +1,3 @@
+source env1/bin/activate
+pip freeze > req-env1.txt
+deactivate
